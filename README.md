@@ -1,4 +1,4 @@
-### This is a project to create a simple markdown parser
+This is a project to create a simple markdown parser
 
 It is written in springboot and provides 2 endpoints -
 1. /upload-file - which receives a text file upload in a 'markdown' format and returns the HTML formatted text
@@ -6,9 +6,9 @@ It is written in springboot and provides 2 endpoints -
 
 RULES:
 
-* "# Heading 1" trnslates to "<h1>Heading 1</h1>"
-* "txt" transalets to "<p>txt</p>"
-* "txt [linktxt](www.somelink.com) more text" translates to "txt <a href="www.somelink.com"></a> more text"
+* "# Heading 1" trnslates to \<h1>Heading 1\</h1> 
+* "txt" transalets to \<p>txt\</p>
+* "txt \[linktxt]\(www.somelink.com) more text" translates to "txt \<a href="www.somelink.com">linktext\</a> more text"
 
 Sample Inputs:
 
